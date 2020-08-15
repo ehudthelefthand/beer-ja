@@ -1,0 +1,9 @@
+.review-list {
+    margin: 1rem .25em;
+    width: calc(50% - 1em);
+    align-self: center;
+    background-color: white;
+    padding: 1em 0 0 0;
+    overflow-y: auto;
+    height: 300px;
+}

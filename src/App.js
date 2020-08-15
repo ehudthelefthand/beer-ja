@@ -8,6 +8,7 @@ import {
 import './App.css';
 import Home from "./pages/Home";
 import BeerDetail from "./pages/BeerDetail";
+import AddBeer from "./pages/AddBeer";
 
 function App() {
   return (
@@ -21,6 +22,9 @@ function App() {
               <li>
                 <Link to="/beer-detail/1">Detail</Link>
               </li>
+              <li>
+                <Link to="/add-beer">Add Beer</Link>
+              </li>
             </ul>
           </nav>
 
@@ -32,6 +36,9 @@ function App() {
             {/*</Route>*/}
             <Route path="/beer-detail/:id">
               <BeerDetail />
+            </Route>
+            <Route path="/add-beer">
+              <AddBeer />
             </Route>
             <Route path="/">
               <Home />

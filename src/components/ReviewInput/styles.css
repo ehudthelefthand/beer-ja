@@ -1,0 +1,10 @@
+.review-form {
+    margin: 0 0 1em 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.review-input {
+    width: 14vw;
+}
