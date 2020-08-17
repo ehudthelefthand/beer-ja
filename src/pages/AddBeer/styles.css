@@ -1,0 +1,18 @@
+.detail-centered {
+    margin: auto;
+    width: 50%;
+
+    /*margin: 0 auto;*/
+    /*padding: 0 1em;*/
+}
+
+.beer-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.beer-form > * {
+    align-self: center;
+    max-width: calc(50% -  1em);
+}
+

@@ -11,10 +11,10 @@ const BeerList = ({ beers }) => {
     };
     return (
         <div className="cards">
-            <Beer beer={beersMock}/>
-            <Beer beer={beersMock}/>
-            <Beer beer={beersMock}/>
-            <Beer beer={beersMock}/>
+            <Beer beer={{...beersMock, id: 1, name: "beer01"}}/>
+            <Beer beer={{...beersMock, id: 2, name: "beer02"}}/>
+            <Beer beer={{...beersMock, id: 3, name: "beer03"}}/>
+            <Beer beer={{...beersMock, id: 4, name: "beer04"}}/>
         </div>
     );
 };

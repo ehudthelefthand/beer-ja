@@ -10,7 +10,7 @@ const Beer = ({ beer }) => {
                     <img alt="" src={`data:image/png;base64,${beer.image}`} />
                 </picture>
                 <div className="card-content">
-                    <h4>{beer.name}</h4>
+                    <h4 data-testid={`beer-name-${beer.id}`}>{beer.name}</h4>
                     <p>
                         {beer.brand}
                     </p>
